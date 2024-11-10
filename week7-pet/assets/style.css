@@ -1,0 +1,64 @@
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.root {
+    min-height: 500px;
+
+}
+.header {
+    border: 1px solid rgb(4, 4, 4);
+    min-height: 150px;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+}
+.wrapper {
+    grid-area: 1/1/3/12;
+    background-color: #FFF;
+    ;
+}
+.header-nav {
+    grid-area: 3/1/4/12;
+    background-color: #262D33;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+.nav-box {
+    border: 1px solid #FFF;
+    font-family: "lato";
+    font-size: 0.5em;
+    color: #FFF;
+    max-height: 20px;
+}
+.news {
+    margin-left: 10%;
+}
+.option {
+}
+.science {
+}
+.life {
+}
+.travel {
+}
+.money {
+}
+.art-design {
+}
+.sports {
+}
+.people {
+}
+.health {
+}
+.education {
+    margin-right: 10%;
+}
